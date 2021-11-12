@@ -1,34 +1,15 @@
 {
   "short_name": "App do Tempo",
   "name": "App do Tempo PWA",
+  "icons": [
+      {
+          "src": "/images/logo.png",
+          "type": "image/png",
+          "sizes": "1024x1024"
+      }
+  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff",
-  "Icons": [
-    {
-      "src": "public/images/manifest-icon-192.maskable.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "public/images/manifest-icon-192.maskable.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "public/images/manifest-icon-512.maskable.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "public/images/manifest-icon-512.maskable.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
-  ]
+  "background_color": "#ffffff"
 }
